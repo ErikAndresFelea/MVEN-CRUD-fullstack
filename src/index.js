@@ -20,7 +20,7 @@ app.use(morgan('dev'));     // Get info from browser request
 app.use(express.json());    // Allows server to understand json data
 
 // Routes
-app.use('/tasks', require('.\\routes\\tasks'));
+app.use('/api/tasks', require('.\\routes\\tasks'));
 
 
 // Static files (html, css, images, ...)
